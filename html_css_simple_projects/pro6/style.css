@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('dog.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.nav_menu {
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+.nav_menu li {
+    display: inline-block;
+}
+
+.nav_menu li a {
+    color: turquoise;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Verdana", "sans-serif";
+    font-size: 20px;
+}
+
+#home_button {
+    border: 1px solid grey;
+    background-color: white;
+}
+
+.nav_menu li a:hover {
+    border: 1px solid grey;
+    background-color: black;
+}
+
+.tag_line {
+    position: absolute;
+    width: 1200px;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.tag_line h1 {
+    color: white;
+    font-size: 50px;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    margin-top: 385px;
+}
+
+#adopt {
+    margin-top: 30px;
+    margin-left: 540px;
+}
+
+#adoptbtn {
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: yellow;
+    font-family: Verdana, sans-serif;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+#adopt a:hover {
+    background-color: burlywood;
+}
